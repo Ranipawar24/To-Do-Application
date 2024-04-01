@@ -51,6 +51,7 @@ export const TodoWrapperLocalStorage = () => {
     setTodos(newTodos);
     localStorage.setItem("todos", JSON.stringify(newTodos));
   };
+
   return (
     <div className="TodoWrapper">
       <h1>Get Things Done!</h1>
